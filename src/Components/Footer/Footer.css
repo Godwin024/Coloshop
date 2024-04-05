@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Footerbody{
+    width: 100%;
+    height: 100vh;
+    /* margin-top:70px; */
+    /* background-color: blueviolet; */
+}
+
+.smallfoot{
+    width: 100%;
+    height: 15%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+}
+
+.smallwrap{
+    width: 78%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex; 
+    gap: 2px;
+    /* flex-direction: row; */
+}
+
+.footbox{
+    width: 25%;
+    height: 100%;
+    background-color:#f3f3f3;
+    padding-left: 30px;
+    padding-top: 2%;
+    cursor: pointer;
+    /* margin-top: 10%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+    /* align-items: center; */
+    /* justify-content: center; */ 
+}
+
+
+
+.footbox h4{
+    font-family: "Poppins", sans-serif;
+    Font-size: 17px;
+    Font-weight: 500;
+    Line-height: 20px;
+    color: rgb(40, 40, 40);
+    
+}
+
+.footbox p{
+    font-family: "Poppins", sans-serif;
+    Font-size: 10px;
+    Font-weight: 500;
+    Line-height: 18px;
+    color: rgb(81, 84, 95);
+}
+
+.footermiddle{
+    width: 100%;
+    height: 15%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20%; */
+    margin-bottom: 55px;
+
+}
+
+.middlewrap{
+    width: 80%;
+    height: 70%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+.fleft{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    /* background-color: gray; */
+    /* padding-bottom: 20%; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.fleft h3{
+    padding-top: 18px;
+    padding-left: 25px;
+    font-family: "Poppins", sans-serif;
+    Font-size: 24px;
+    Font-weight: 500;
+    Line-height: 24px;
+    color: rgb(40, 40, 40);
+}
+
+.fleft p{
+    padding-left: 25px;
+    font-family:  "Poppins", sans-serif;
+    Font-size: 12px;
+    Font-weight: 500;
+    Line-height: 23.8px;
+    color: rgb(81, 84, 95);
+
+}
+
+
+.fright{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.fbtn{
+    width: 30%;
+    height: 55%;
+    background-color: #fe4c50;
+    color: #f3f3f3;
+    border: none;
+    cursor: pointer;
+    transition: 2ms ease-in-out;
+    /* font-family: "poppins" sans-serif; */
+    /* font-size: 15px; */
+    font-weight: 600;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #eb8286;
+}
+
+
+.bum{
+    width: 100%;
+    height: 10%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bumwrap{
+    width: 80%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    width: 98%;
+    height: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    
+}
+
+.side1{
+    width: 50%;
+    height: 100%;
+    /* background-color: violet; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15%;
+
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    font-family:  "Poppins", sans-serif;
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 30px;
+    color: #a09a9a;
+    transition: 350ms ease-in-out;
+}
+
+li:hover{
+    color: rgb(254, 76, 80);
+}
+
+.side2{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 10%;
+    align-items: center;
+    transition: 350ms ease-in-out;
+    cursor: pointer;
+}
+.secondicon{
+    font-size: 28px;
+}
+
+.secondicon:hover{
+    color: rgb(254, 76, 80);
+}
+
+
+
+.bottom{
+    width: 100%;
+    height: 10%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botwrap{
+    width: 80%;
+    height: 100%;
+    /* background-color: peru; */
+}
+
+.botwrap h4{
+    font-family: "Poppins", sans-serif;
+    Font-size: 13px;
+    Font-weight: 400;
+    Line-height: 30px;
+    color: rgb(81, 84, 95);
+}
+
+.span1{
+    color: #fe4c77;
+    cursor: pointer;
+}
+
+.span2{
+    color: #fe4c77;
+    cursor: pointer;
+}
