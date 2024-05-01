@@ -7,17 +7,17 @@ const Bestseller = () => {
             <div className="bestsellerwrap">
                 <h1>Best Sellers</h1>
                 <div className="dealbox">
-                    <div className="Dealcard">
+                     <div className="Dealcard">
                         <div className="productimg">
                             <img src={product_5} alt="" />
                         </div>
                         <div className="text">
                             <h5>title</h5>
-                            {/* <h5>{i.category}</h5> */}
+                           
                             <p>$7775</p>
                         </div>
                         <button className="productbtn Active">Add to chart</button>
-                    </div>
+                    </div> 
                     <div className="Dealcard">
                         <div className="productimg">
                             <img src={product_5} alt="" />

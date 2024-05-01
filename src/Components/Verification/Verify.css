@@ -1,6 +1,6 @@
 .verifybox{
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     background-color: white;
     display: flex;
     align-items: center;
@@ -105,4 +105,255 @@
 .downv span{
     color: blue;
     cursor: pointer;
+}
+
+@media screen and (Width <=765px) {
+    .verifybox{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vwrapper{
+        width: 90%;
+        height: 80%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .verdiv{
+        width: 60%;
+        height: 95%;
+        /* background-color: red; */
+        /* background-color: white; */
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;  
+    }
+
+    .icon1{
+        font-size: 17px;
+        display: flex;
+        gap: 10px;
+     }
+
+    .downv1{
+        width: 90%;
+        height: 15%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        font-size: 15px;
+        gap: 5px;
+        
+    }
+
+    .downv1 span{
+        text-transform: uppercase;
+        color: blue;
+        font-size: 13px;
+        /* cursor: pointer; */
+       }
+
+       .vb{
+        width: 70%;
+        height: 25%;
+        outline: none;
+        border: none;
+        font-size: 13px;
+        border-radius: 10px;
+        background-color: blue;
+         
+    }
+
+    .downv p, span{
+    font-size: 13px;
+    gap: 10px;   
+    }    
+
+}
+
+@media screen and (width <=480px) {
+
+    .verifybox{
+        width: 100%;
+        height: 90vh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vwrapper{
+        width: 90%;
+        height: 80%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .verdiv{
+        width: 60%;
+        height: 95%;
+        /* background-color: red; */
+        /* background-color: white; */
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;  
+    }
+
+    .icon1{
+        font-size: 12px;
+        display: flex;
+        gap: 10px;
+     }
+
+    .downv1{
+        width: 90%;
+        height: 12%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        font-size: 12px;
+        gap: 5px;
+        
+    }
+
+    .downv1 h1{
+        font-size: 13px;
+    }
+
+    .downv1 p{
+        font-size: 12px;
+    }
+
+
+    .downv1 span{
+        text-transform: uppercase;
+        color: blue;
+        font-size: 10px;
+        /* cursor: pointer; */
+       }
+
+       .vb{
+        width: 70%;
+        height: 25%;
+        outline: none;
+        border: none;
+        font-size: 9px;
+        border-radius: 10px;
+        background-color: blue;
+         
+    }
+
+    .downv p, span{
+    font-size: 12px;
+    gap: 10px;   
+    }    
+
+}
+
+@media screen and (width <=320px) {
+
+    .verifybox{
+        width: 100%;
+        height: 90vh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vwrapper{
+        width: 90%;
+        height: 80%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .verdiv{
+        width: 100%;
+        height: 90%;
+        /* background-color: red; */
+        /* background-color: white; */
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;  
+    }
+
+    .icon1{
+        font-size: 11px;
+        display: flex;
+        gap: 10px;
+     }
+
+    .downv1{
+        width: 90%;
+        height: 12%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        font-size: 11px;
+        gap: 5px;
+        
+    }
+
+    .downv1 h1{
+        font-size: 13px;
+    }
+
+    .downv1 p{
+        font-size: 12px;
+    }
+
+
+    .downv1 span{
+        text-transform: uppercase;
+        color: blue;
+        font-size: 10px;
+        /* cursor: pointer; */
+       }
+
+       .vb{
+        width: 70%;
+        height: 25%;
+        outline: none;
+        border: none;
+        font-size: 9px;
+        border-radius: 10px;
+        background-color: blue;
+         
+    }
+
+    .downv p, span{
+    font-size: 12px;
+    gap: 10px;   
+    }    
+
 }

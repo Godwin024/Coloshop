@@ -44,9 +44,191 @@
 
 .btnShop{
     height: 15%;
+    font-size: 15px;
+}
+
+.btnShop:hover{
+    background-color: rgb(255, 114, 116);
+}
+
+
+@media screen and (Width <=765px) {
+    
+    .heroHolder{
+        width: 100%;
+        height: 100vh;
+        background-image: url(https://themewagon.github.io/coloshop/images/slider_1.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000000;
+          
+    }
+
+    .heroWrapper{
+        width: 80%;
+        height: 40%;  
+        margin: 6%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        /* gap: 30px; */
+    }
+
+    .heroWrapper h6{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 16.8px;
+        color: rgb(40, 40, 40);
+        font-family: 'poppins', sans-serif;
+        
+    
+    }
+
+    
+.heroWrapper h1{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 50px;
+    color: rgb(40, 40, 40);
+    width: 70%;
+    font-family: 'poppins', sans-serif;
+
+
+}
+
+.btnShop{
+    height: 18%;
+    width: 25%;
     font-size: 12px;
 }
 
 .btnShop:hover{
     background-color: rgb(255, 114, 116);
+}
+
+}
+
+@media screen and (width <=480px) {
+
+    
+    .heroHolder{
+        width: 100%;
+        height: 80vh;
+        background-image: url(https://themewagon.github.io/coloshop/images/slider_1.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000000;
+          
+    }
+
+    .heroWrapper{
+        width: 80%;
+        height: 30%;  
+        margin: 6%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        /* gap: 30px; */
+    }
+
+    .heroWrapper h6{
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 16.8px;
+        color: rgb(40, 40, 40);
+        font-family: 'poppins', sans-serif;
+        /* background-color: red; */
+        
+    
+    }
+
+    
+.heroWrapper h1{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 50px;
+    color: rgb(40, 40, 40);
+    width: 70%;
+    font-family: 'poppins', sans-serif;
+
+
+}
+
+.btnShop{
+    height: 18%;
+    width: 25%;
+    font-size: 10px;
+}
+
+.btnShop:hover{
+    background-color: rgb(255, 114, 116);
+}
+
+}
+
+@media screen and (width <= 320px) {
+
+    
+    .heroHolder{
+        width: 100%;
+        height: 80vh;
+        background-image: url(https://themewagon.github.io/coloshop/images/slider_1.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000000;
+          
+    }
+
+    .heroWrapper{
+        width: 98%;
+        height: 29%;  
+        /* margin: 6%; */
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: column; */
+        /* gap: 30px; */
+    }
+
+    .heroWrapper h6{
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 16.8px;
+        color: rgb(40, 40, 40);
+        font-family: 'poppins', sans-serif;
+        /* background-color: red; */
+        
+    
+    }
+
+    
+.heroWrapper h1{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 50px;
+    color: rgb(40, 40, 40);
+    width: 70%;
+    font-family: 'poppins', sans-serif;
+
+
+}
+
+.btnShop{
+    height: 17%;
+    width: 24%;
+    font-size: 8px;
+}
+
+.btnShop:hover{
+    background-color: rgb(255, 114, 116);
+}
+
 }

@@ -20,7 +20,6 @@ const CartPage = () => {
             .then(data => dispatch(AddToChart(data)))
             .catch(err => console.log(err))
     }, [])
-   
     return (
         <div className="CartBody">
             <h1>Shopping Cart</h1>

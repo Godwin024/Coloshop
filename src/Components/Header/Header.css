@@ -1,12 +1,13 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.smallheader{
+
+.smallheader {
     width: 100%;
     height: 8vh;
-    background-color:  #1E1E27;
+    background-color: #1E1E27;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,14 +17,16 @@
     top: 0;
     */
 }
-.smallheadwrapper{
+
+.smallheadwrapper {
     width: 80%;
     height: 100%;
     background-color: #1E1E27;
     display: flex;
     justify-content: space-between;
 }
-.wrapleft{
+
+.wrapleft {
     width: 30%;
     height: 100%;
     /* background-color: grey; */
@@ -31,14 +34,16 @@
     /* justify-content: center; */
     align-items: center;
 }
-.wrapleft h4{
+
+.wrapleft h4 {
     Font-family: "Poppins", sans-serif;
     Font-weight: 420;
     /* Line-height: 51px; */
     Font-size: 12px;
     color: rgb(181, 174, 196);
 }
-.wrapright{
+
+.wrapright {
     width: 28%;
     height: 100%;
     /* background-color: green; */
@@ -47,19 +52,22 @@
     align-items: center;
     position: relative;
     cursor: pointer;
-   
+
 
 }
-.wrapright h4{
+
+.wrapright h4 {
     Font-family: "Poppins", sans-serif;
     Font-weight: 420;
     Line-height: 51px;
     Font-size: 12px;
     color: rgb(181, 174, 196);
-   
+    /* background-color: red; */
+
     /* border-right: 2px solid grey; */
 }
-.lineng{
+
+.lineng {
     width: 35%;
     height: 100%;
     /* background-color: yellow; */
@@ -67,17 +75,20 @@
     justify-content: center;
     align-items: center;
     border-left: 0.2px solid rgb(50, 49, 49);
-    border-right: 1px solid  rgb(50, 49, 49);
+    border-right: 1px solid rgb(50, 49, 49);
 }
-.lineng h4{
+
+.lineng h4 {
     Font-family: "Poppins", sans-serif;
     Font-weight: 420;
     Line-height: 51px;
     Font-size: 12px;
     color: rgb(181, 174, 196);
     position: relative;
+    /* background-color: red; */
 }
-.BigHeader{
+
+.BigHeader {
     width: 100%;
     height: 15vh;
     background-color: white;
@@ -90,27 +101,31 @@
     z-index: 999999;
     /* position: fixed; */
 }
-.bigheadwrap{
+
+.bigheadwrap {
     width: 80%;
     height: 100%;
     /* background-color: grey; */
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 999999;
 }
-.bigheadwrap h4{
- font-size: 20px;
- font-weight: 800;
- line-height: 25px;
- font-family: "poppins", sans-serif;
+
+.bigheadwrap h4 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    font-family: "poppins", sans-serif;
 
 }
-.bigheadwrap h4 span{
+
+.bigheadwrap h4 span {
     font-size: 20px;
     color: rgb(254, 76, 80)
 }
-.Nav{
+
+.Nav {
     width: 65%;
     height: 60px;
     font-size: 10px;
@@ -121,16 +136,18 @@
     align-items: center;
     gap: 30px;
 }
-.Nav ul{
+
+.Nav ul {
     width: 76%;
     height: 100%;
-    font-size: 10px;
-    /* background-color: white ; */
+    font-size: 20px;
+    /* background-color: red ; */
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
     align-items: center;
 }
-.Usericons{
+
+.Usericons {
     width: 24%;
     height: 100%;
     /* background-color: red; */
@@ -138,7 +155,7 @@
     justify-content: flex-end;
     align-items: center;
     /* gap: 10px; */
-    font-size: 15px;
+    font-size: 18px;
     /* font-family: "Poppins", sans-serif; */
     line-height: 23px;
     font-weight: 500;
@@ -148,49 +165,54 @@
 
 }
 
-.Nav ul li{
+.Nav ul li {
     text-transform: uppercase;
     list-style: none;
     font-family: "Poppins", sans-serif;
     font-weight: 520;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 24px;
     cursor: pointer;
     color: black;
     transition: all 350ms ease;
 
 }
-.Nav ul li:hover{
-  color: rgb(181,174, 196);
+
+.Nav ul li:hover {
+    color: rgb(181, 174, 196);
 }
-.Icons{
-   cursor: pointer;
-   transition: all  350ms ease-in;
-   
+
+.Icons {
+    cursor: pointer;
+    transition: all 350ms ease-in;
+
 }
-.Icons:hover{
-    color: rgb(181,174, 196);
+
+.Icons:hover {
+    color: rgb(181, 174, 196);
 }
-.cartt{
-  width: 40px;
-  height: 40px;
-  background-color: rgb(213, 211, 217);
-  border-radius: 50%;
-  display: flex;
-  justify-content:center ;
-  align-items: center;
-  font-size: 15px;
-  line-height: 23px;
-  font-weight: 500;
-  position: relative;
+
+.cartt {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(213, 211, 217);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 500;
+    position: relative;
 }
-.Nuuum{
+
+.Nuuum {
     width: 20px;
     height: 20px;
     color: white;
     background-color: #FE4C50;
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
     border-radius: 50%;
     font-size: 12px;
@@ -199,102 +221,444 @@
     top: -7px;
     right: -5px;
 }
-.myacc{
+
+.myacc {
     position: relative;
 }
-.MyAccount{
-    width:9%;
+
+.MyAccount {
+    width: 9%;
     height: 15%;
     background-color: white;
     position: absolute;
     top: 75px;
-   right: 0;
-   z-index: 99999999999;
-   margin-right: 9%;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   font-family: "Poppins", sans-serif;
-   font-size: 12px;
-   font-weight: 500;
-   display: flex;
-   justify-content:center ;
-   align-items: center;
-   Line-height: 60px;
-   color: rgb(61, 56, 56);
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-   transition: all 350ms ease-in;
-   cursor: pointer;
+    right: 0;
+    z-index: 99999999999;
+    margin-right: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Line-height: 60px;
+    color: rgb(61, 56, 56);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 350ms ease-in;
+    cursor: pointer;
 
 
 }
-.MyAccount h4:hover{
-    color: rgb(181,174, 196);;
+
+.MyAccount h4:hover {
+    color: rgb(181, 174, 196);
+    ;
 }
 
-.English{
-    width:8%;
+.English {
+    width: 8%;
     height: 35%;
     background-color: white;
     position: absolute;
     top: 85px;
     right: 0;
-   z-index: 99999999999;
-   margin-right: 18%;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   font-family: "Poppins", sans-serif;
-   Font-size: 10px;
-   font-weight: 450;
-   display: flex;
-   justify-content:center ;
-   align-items: center;
-   Line-height: 60px;
-   color: rgb(61, 56, 56);
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-   transition: all 350ms ease-in;
-   cursor: pointer;
+    z-index: 99999999999;
+    margin-right: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Poppins", sans-serif;
+    Font-size: 10px;
+    font-weight: 450;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Line-height: 60px;
+    color: rgb(61, 56, 56);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 350ms ease-in;
+    cursor: pointer;
 
 
 }
-.myusd{
-    width:8%;
+
+.myusd {
+    width: 8%;
     height: 35%;
     background-color: white;
     position: absolute;
     top: 75px;
-   right: 0;
-   z-index: 99999999999;
-   margin-right: 26%;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   font-family: "Poppins", sans-serif;
-   Font-size: 10px;
-   font-weight: 450;
-   display: flex;
-   justify-content:center ;
-   align-items: center;
-   Line-height: 60px;
-   color: rgb(61, 56, 56);
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-   transition: all 350ms ease-in;
-   cursor: pointer;
+    right: 0;
+    z-index: 99999999999;
+    margin-right: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Poppins", sans-serif;
+    Font-size: 10px;
+    font-weight: 450;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Line-height: 60px;
+    color: rgb(61, 56, 56);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 350ms ease-in;
+    cursor: pointer;
 
 
 }
-.myusd h4:hover{
-    color: rgb(181,174, 196);;
+
+.myusd h4:hover {
+    color: rgb(181, 174, 196);
+    ;
 }
-.English h4:hover{
-    color: rgb(181,174, 196);;
+
+.English h4:hover {
+    color: rgb(181, 174, 196);
+    ;
 }
-hr{
+
+hr {
     width: 80%;
 }
-.Usd{
+
+.Usd {
     position: relative;
 }
 
+.MenuBar {
+    width: 10%;
+    height: 100%;
+    /* background-color: blue; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 80px;
+    display: none;
+}
 
+
+@media screen and (Width <=765px) {
+
+
+    .BigHeader {
+        width: 100%;
+        height: 15vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        position: sticky;
+        top: 0;
+        z-index: 999999;
+        /* position: fixed; */
+    }
+
+    .bigheadwrap {
+        width: 80%;
+        height: 100%;
+        /* background-color: grey; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 999999;
+    }
+
+    .bigheadwrap h4 {
+        font-size: 17px;
+        font-weight: 800;
+        line-height: 25px;
+        font-family: "poppins", sans-serif;
+
+    }
+
+    .bigheadwrap h4 span {
+        font-size: 17px;
+        color: rgb(254, 76, 80)
+    }
+
+    .MenuBar {
+        display: flex;
+        cursor: pointer;
+        font-size: 50px;
+        /* background-color: red; */
+
+    }
+
+
+    .smallheader {
+        display: none;
+    }
+
+    .Nav ul li {
+        display: none;
+
+
+    }
+
+    /* .Nav{
+    display: none;
+  } */
+
+    .Usericons {
+        width: 55%;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        /* justify-content: flex-end; */
+        align-items: center;
+        /* gap: 10px; */
+        font-size: 19px;
+        /* font-family: "Poppins", sans-serif; */
+        line-height: 23px;
+        font-weight: 500;
+        display: flex;
+        /* justify-content: space-between; */
+        /* gap: 40px; */
+    }
+
+
+
+}
+
+
+
+@media screen and (width <=480px) {
+
+
+    .BigHeader {
+        width: 100%;
+        height: 15vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        position: sticky;
+        top: 0;
+        z-index: 999999;
+        /* position: fixed; */
+    }
+
+    .bigheadwrap {
+        width: 95%;
+        height: 100%;
+        /* background-color: grey;*/
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 999999;
+    }
+
+    .bigheadwrap h4 {
+        font-size: 15px;
+        font-weight: 800;
+        line-height: 25px;
+        font-family: "poppins", sans-serif;
+
+    }
+
+    .bigheadwrap h4 span {
+        font-size: 15px;
+        color: rgb(254, 76, 80)
+    }
+
+
+    .MenuBar {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        cursor: pointer;
+        justify-content: flex-end;
+        font-size: 38px;
+        /* background-color: red; */
+
+    }
+
+
+    .smallheader {
+        display: none;
+    }
+
+    .Nav ul li {
+        display: none;
+
+
+    }
+
+    /* .Nav{
+    display: none;
+  } */
+
+    .Usericons {
+        width: 55%;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        /* justify-content: flex-end; */
+        align-items: center;
+        /* gap: 10px; */
+        font-size: 15px;
+        /* font-family: "Poppins", sans-serif; */
+        line-height: 23px;
+        font-weight: 500;
+        display: flex;
+        /* justify-content: space-between; */
+        /* gap: 40px; */
+    }
+
+    .cartt {
+        width: 35px;
+        height: 35px;
+        /* background-color: red; */
+        background-color: rgb(213, 211, 217);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .Nuuum {
+        width: 18px;
+        height: 18px;
+        color: white;
+        background-color: #FE4C50;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        position: absolute;
+        top: -7px;
+        right: -5px;
+    }
+
+}
+
+@media screen and (width <= 320px) {
+    
+
+
+    .BigHeader {
+        width: 100%;
+        height: 13vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        position: sticky;
+        top: 0;
+        z-index: 999999;
+        /* position: fixed; */
+    }
+
+    .bigheadwrap {
+        width: 95%;
+        height: 100%;
+        /* background-color: grey;*/
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 999999;
+    }
+
+    .bigheadwrap h4 {
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 25px;
+        font-family: "poppins", sans-serif;
+
+    }
+
+    .bigheadwrap h4 span {
+        font-size: 14px;
+        color: rgb(254, 76, 80)
+    }
+
+
+    .MenuBar {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        cursor: pointer;
+        justify-content: flex-end;
+        font-size: 22px;
+        /* background-color: red; */
+
+    }
+
+
+    .smallheader {
+        display: none;
+    }
+
+    .Nav ul li {
+        display: none;
+
+
+    }
+
+    /* .Nav{
+    display: none;
+  } */
+
+    .Usericons {
+        width: 75%;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        /* gap: 10px; */
+        font-size: 20px;
+        /* font-family: "Poppins", sans-serif; */
+        line-height: 23px;
+        font-weight: 500;
+        display: flex;
+        /* justify-content: space-between; */
+        /* gap: 40px; */
+    }
+
+    .cartt {
+        width: 30px;
+        height: 25px;
+        /* background-color: red; */
+        background-color: rgb(213, 211, 217);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .Nuuum {
+        width: 15px;
+        height: 15px;
+        color: white;
+        background-color: #FE4C50;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        position: absolute;
+        top: -7px;
+        right: -5px;
+    }
+
+}

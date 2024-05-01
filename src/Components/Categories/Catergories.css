@@ -36,8 +36,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-
-
 }
 .images{
     width: 100%;
@@ -264,6 +262,159 @@ gap: 25px;
     height: 52%;
     line-height: 25px;
     background-color: #FE4C50;
+}
+
+@media screen and (Width <=765px) {
+    .categoriesBody{
+        width: 100%;
+        height: 1020px;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 600;
+        Line-height: 50px;
+        color: black(175, 169, 190);
+      }
+
+      .categoriesWrap{
+        width: 80%;
+        height: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+      }
+
+      .categoriesCardFrame{
+        width: 100%;
+        height: 90%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+}
+@media screen and (width <=480px) {
+
+
+    .categoriesBody{
+        width: 100%;
+        height: 1020px;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 600;
+        Line-height: 50px;
+        color: black(175, 169, 190);
+      }
+
+      .categoriesWrap{
+        width: 80%;
+        height: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+      }
+
+      .categoriesCardFrame{
+        width: 100%;
+        height: 80%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .categoriesCardTextHolder{
+        width: 80%;
+        height: 20%;
+        background-color: white;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        font-size: 10px;
+        font-weight: 600;
+        font-family: "Poppins" sans-serif;
+        border-radius: 5px;
+        transition: all 350ms ease-in;
+        cursor: pointer;
+        line-height: 50px;
+        text-transform: uppercase;
+    }
+    .categoriesCardTextHolder:hover{
+       color: rgb(181, 174, 196);
+    }
+
+}
+@media screen and (width <= 320px) {
+    
+
+
+    .categoriesBody{
+        width: 100%;
+        height: 700px;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 600;
+        Line-height: 50px;
+        color: black(175, 169, 190);
+      }
+
+      .categoriesWrap{
+        width: 80%;
+        height: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+      }
+
+      .categoriesCardFrame{
+        width: 100%;
+        height: 70%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .categoriesCardTextHolder{
+        width: 80%;
+        height: 18%;
+        background-color: white;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        font-size: 9px;
+        font-weight: 600;
+        font-family: "Poppins" sans-serif;
+        border-radius: 5px;
+        transition: all 350ms ease-in;
+        cursor: pointer;
+        line-height: 50px;
+        text-transform: uppercase;
+    }
+    .categoriesCardTextHolder:hover{
+       color: rgb(181, 174, 196);
+    }
+
 }
 
 

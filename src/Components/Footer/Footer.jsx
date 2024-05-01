@@ -42,7 +42,7 @@ const Footer = () => {
                     <p>Subscribe to our newsletter and get 20% off your first purchase</p>
                 </div>
                 <div className="fright">
-                    <input placeholder="Your email" style={{width: "350px", height: "55%", paddingLeft: 15, fontSize: 17, fontWeight: 400, lineHeight: 23, color: "white", border: "none" }}/>
+                    <input placeholder="Your email" style={{width: "100%", height: "55%", paddingLeft: 15, fontSize: 17, fontWeight: 400, lineHeight: 23, color: "white", border: "none" }}/>
                     <button className="fbtn">SUBSCRIBE</button>
 
                 </div>
