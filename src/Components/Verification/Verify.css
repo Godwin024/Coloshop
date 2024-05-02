@@ -1,4 +1,4 @@
-.verifybox{
+.verifybox {
     width: 100%;
     height: 100vh;
     background-color: white;
@@ -6,7 +6,8 @@
     align-items: center;
     justify-content: center;
 }
-.vwrapper{
+
+.vwrapper {
     width: 60%;
     height: 90%;
     /* background-color: red; */
@@ -14,7 +15,8 @@
     align-items: center;
     justify-content: center;
 }
-.verdiv{
+
+.verdiv {
     width: 60%;
     height: 95%;
     background-color: white;
@@ -24,32 +26,37 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    
+
 }
-.updiv{
- width: 90%;
- height: 10%;
- /* background-color: yellow; */
- display: flex;
- align-items: center;
- justify-content: space-between;
+
+.updiv {
+    width: 90%;
+    height: 10%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.icon1{
-   font-size: 20px;
-   display: flex;
-   gap: 10px;
+
+.icon1 {
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
 }
-.imagev{
+
+.imagev {
     width: 50%;
     height: 30%;
     /* background-color: green; */
 }
-.imagev img{
+
+.imagev img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.downv1{
+
+.downv1 {
     width: 90%;
     height: 15%;
     /* background-color: red; */
@@ -59,26 +66,29 @@
     align-items: center;
     font-size: 18px;
     gap: 5px;
-    
+
 }
-.downv{
+
+.downv {
     width: 90%;
     height: 25%;
     /* background-color: blue; */
     display: flex;
- align-items: center;
- justify-content: center;
- flex-direction: column;
- gap: 20px;
-    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
 }
-.downv1 span{
- text-transform: uppercase;
- color: blue;
- font-size: 15px;
- /* cursor: pointer; */
+
+.downv1 span {
+    text-transform: uppercase;
+    color: blue;
+    font-size: 15px;
+    /* cursor: pointer; */
 }
-.downv input{
+
+.downv input {
     width: 70%;
     height: 25%;
     background-color: white;
@@ -86,13 +96,13 @@
     /* border: none; */
     border-radius: 10px;
     /* background-color: blue; */
-    
-    
-    
+
+
+
 
 }
 
-.vb{
+.vb {
     width: 70%;
     height: 25%;
     outline: none;
@@ -100,15 +110,16 @@
     font-size: 15px;
     border-radius: 10px;
     background-color: blue;
-     
+
 }
-.downv span{
+
+.downv span {
     color: blue;
     cursor: pointer;
 }
 
 @media screen and (Width <=765px) {
-    .verifybox{
+    .verifybox {
         width: 100%;
         height: 100vh;
         background-color: white;
@@ -117,7 +128,7 @@
         justify-content: center;
     }
 
-    .vwrapper{
+    .vwrapper {
         width: 90%;
         height: 80%;
         /* background-color: red; */
@@ -127,7 +138,7 @@
         margin-top: 15px;
     }
 
-    .verdiv{
+    .verdiv {
         width: 60%;
         height: 95%;
         /* background-color: red; */
@@ -137,16 +148,16 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        flex-direction: column;  
+        flex-direction: column;
     }
 
-    .icon1{
+    .icon1 {
         font-size: 17px;
         display: flex;
         gap: 10px;
-     }
+    }
 
-    .downv1{
+    .downv1 {
         width: 90%;
         height: 15%;
         /* background-color: red; */
@@ -156,17 +167,17 @@
         align-items: center;
         font-size: 15px;
         gap: 5px;
-        
+
     }
 
-    .downv1 span{
+    .downv1 span {
         text-transform: uppercase;
         color: blue;
         font-size: 13px;
         /* cursor: pointer; */
-       }
+    }
 
-       .vb{
+    .vb {
         width: 70%;
         height: 25%;
         outline: none;
@@ -174,19 +185,20 @@
         font-size: 13px;
         border-radius: 10px;
         background-color: blue;
-         
+
     }
 
-    .downv p, span{
-    font-size: 13px;
-    gap: 10px;   
-    }    
+    .downv p,
+    span {
+        font-size: 13px;
+        gap: 10px;
+    }
 
 }
 
 @media screen and (width <=480px) {
 
-    .verifybox{
+    .verifybox {
         width: 100%;
         height: 90vh;
         background-color: white;
@@ -195,7 +207,7 @@
         justify-content: center;
     }
 
-    .vwrapper{
+    .vwrapper {
         width: 90%;
         height: 80%;
         /* background-color: red; */
@@ -205,7 +217,7 @@
         margin-top: 15px;
     }
 
-    .verdiv{
+    .verdiv {
         width: 60%;
         height: 95%;
         /* background-color: red; */
@@ -215,16 +227,16 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        flex-direction: column;  
+        flex-direction: column;
     }
 
-    .icon1{
+    .icon1 {
         font-size: 12px;
         display: flex;
         gap: 10px;
-     }
+    }
 
-    .downv1{
+    .downv1 {
         width: 90%;
         height: 12%;
         /* background-color: red; */
@@ -234,26 +246,26 @@
         align-items: center;
         font-size: 12px;
         gap: 5px;
-        
+
     }
 
-    .downv1 h1{
+    .downv1 h1 {
         font-size: 13px;
     }
 
-    .downv1 p{
+    .downv1 p {
         font-size: 12px;
     }
 
 
-    .downv1 span{
+    .downv1 span {
         text-transform: uppercase;
         color: blue;
         font-size: 10px;
         /* cursor: pointer; */
-       }
+    }
 
-       .vb{
+    .vb {
         width: 70%;
         height: 25%;
         outline: none;
@@ -261,19 +273,20 @@
         font-size: 9px;
         border-radius: 10px;
         background-color: blue;
-         
+
     }
 
-    .downv p, span{
-    font-size: 12px;
-    gap: 10px;   
-    }    
+    .downv p,
+    span {
+        font-size: 12px;
+        gap: 10px;
+    }
 
 }
 
 @media screen and (width <=320px) {
 
-    .verifybox{
+    .verifybox {
         width: 100%;
         height: 90vh;
         background-color: white;
@@ -282,7 +295,7 @@
         justify-content: center;
     }
 
-    .vwrapper{
+    .vwrapper {
         width: 90%;
         height: 80%;
         /* background-color: red; */
@@ -292,7 +305,7 @@
         margin-top: 15px;
     }
 
-    .verdiv{
+    .verdiv {
         width: 100%;
         height: 90%;
         /* background-color: red; */
@@ -302,16 +315,16 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        flex-direction: column;  
+        flex-direction: column;
     }
 
-    .icon1{
+    .icon1 {
         font-size: 11px;
         display: flex;
         gap: 10px;
-     }
+    }
 
-    .downv1{
+    .downv1 {
         width: 90%;
         height: 12%;
         /* background-color: red; */
@@ -321,26 +334,26 @@
         align-items: center;
         font-size: 11px;
         gap: 5px;
-        
+
     }
 
-    .downv1 h1{
+    .downv1 h1 {
         font-size: 13px;
     }
 
-    .downv1 p{
+    .downv1 p {
         font-size: 12px;
     }
 
 
-    .downv1 span{
+    .downv1 span {
         text-transform: uppercase;
         color: blue;
         font-size: 10px;
         /* cursor: pointer; */
-       }
+    }
 
-       .vb{
+    .vb {
         width: 70%;
         height: 25%;
         outline: none;
@@ -348,12 +361,13 @@
         font-size: 9px;
         border-radius: 10px;
         background-color: blue;
-         
+
     }
 
-    .downv p, span{
-    font-size: 12px;
-    gap: 10px;   
-    }    
+    .downv p,
+    span {
+        font-size: 12px;
+        gap: 10px;
+    }
 
 }

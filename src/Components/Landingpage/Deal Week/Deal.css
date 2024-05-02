@@ -1,38 +1,43 @@
-.Dealpage{
+.Dealpage {
     width: 100%;
     height: 90vh;
-    background-color:#F2F2F2;
+    background-color: #F2F2F2;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 2%;
 }
-.Dealwrap{
+
+.Dealwrap {
     width: 95%;
     height: 100%;
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-between;
 }
-.Dealleft{
+
+.Dealleft {
     width: 47%;
     height: 100%;
     background-color: #F2F2F2;
 }
-.Dealleft img{
+
+.Dealleft img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.Dealright{
- width: 50%;
- height: 100%;
- background-color: #F2F2F2;
- display: flex;
+
+.Dealright {
+    width: 50%;
+    height: 100%;
+    background-color: #F2F2F2;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
-.dealtext{
+
+.dealtext {
     width: 100%;
     height: 70%;
     /* background-color: aquamarine; */
@@ -43,24 +48,27 @@
     position: relative;
     /* gap: 30px; */
 }
-.dealtext h1{
+
+.dealtext h1 {
     font-size: 50px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-   
+
 }
-.dealtext::after{
+
+.dealtext::after {
     content: '';
     position: absolute;
-    background-color:  #FE4C50;
+    background-color: #FE4C50;
     width: 13%;
     height: 6px;
     top: 25%;
     /* right: 0; */
 
 }
-.circlediv{
-    width: 100% ;
+
+.circlediv {
+    width: 100%;
     height: 40%;
     /* background-color: blue; */
     display: flex;
@@ -68,7 +76,8 @@
     justify-content: center;
     gap: 15px;
 }
-.circ1{
+
+.circ1 {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -79,38 +88,41 @@
     flex-direction: column;
 
 }
-.circ1 h1{
-    color:#FE4C50 ;
+
+.circ1 h1 {
+    color: #FE4C50;
     font-size: 30px;
     line-height: 50px;
     font-weight: 600;
-    font-family: "Poppins", sans-serif ;
+    font-family: "Poppins", sans-serif;
 }
-.circ1 p{
+
+.circ1 p {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 500;
     line-height: 40px;
 }
-.dealbtn{
+
+.dealbtn {
     background-color: rgba(0, 0, 0, 0.901);
     width: 30%;
     font-size: 16px;
 }
 
 @media screen and (Width <=765px) {
-    
-    .Dealpage{
+
+    .Dealpage {
         width: 100%;
         height: 90vh;
-        background-color:#F2F2F2;
+        background-color: #F2F2F2;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 2%;
     }
 
-    .Dealwrap{
+    .Dealwrap {
         width: 95%;
         height: 100%;
         background-color: #F2F2F2;
@@ -119,28 +131,28 @@
         justify-content: space-between;
     }
 
-    .Dealleft{
+    .Dealleft {
         width: 50%;
         height: 100%;
         background-color: #F2F2F2;
     }
 
-    .Dealleft img{
+    .Dealleft img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .Dealright{
+    .Dealright {
         width: 50%;
         height: 100%;
         background-color: #F2F2F2;
         display: flex;
         align-items: center;
         justify-content: center;
-       }
+    }
 
-       .dealtext{
+    .dealtext {
         width: 100%;
         height: 60%;
         /* background-color: aquamarine; */
@@ -151,25 +163,27 @@
         position: relative;
         /* gap: 30px; */
     }
-    .dealtext h1{
+
+    .dealtext h1 {
         font-size: 35px;
         font-weight: 500;
         font-family: "Poppins", sans-serif;
-       
+
     }
-    .dealtext::after{
+
+    .dealtext::after {
         content: '';
         position: absolute;
-        background-color:  #FE4C50;
+        background-color: #FE4C50;
         width: 17%;
         height: 7px;
         top: 25%;
         /* right: 0; */
-    
+
     }
 
-    .circlediv{
-        width: 100% ;
+    .circlediv {
+        width: 100%;
         height: 30%;
         /* background-color: blue; */
         display: flex;
@@ -177,7 +191,8 @@
         justify-content: center;
         gap: 15px;
     }
-    .circ1{
+
+    .circ1 {
         width: 55%;
         height: 70%;
         border-radius: 50%;
@@ -186,22 +201,25 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    
+
     }
-    .circ1 h1{
-        color:#FE4C50 ;
+
+    .circ1 h1 {
+        color: #FE4C50;
         font-size: 30px;
         line-height: 50px;
         font-weight: 600;
-        font-family: "Poppins", sans-serif ;
+        font-family: "Poppins", sans-serif;
     }
-    .circ1 p{
+
+    .circ1 p {
         font-family: "Poppins", sans-serif;
         font-size: 15px;
         font-weight: 500;
         line-height: 40px;
     }
-    .dealbtn{
+
+    .dealbtn {
         background-color: rgba(0, 0, 0, 0.901);
         width: 38%;
         height: 12%;
@@ -213,18 +231,18 @@
 
 
 @media screen and (width <=480px) {
-    
-    .Dealpage{
+
+    .Dealpage {
         width: 100%;
         height: 90vh;
-        background-color:#F2F2F2;
+        background-color: #F2F2F2;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 2%;
     }
 
-    .Dealwrap{
+    .Dealwrap {
         width: 100%;
         height: 100%;
         background-color: #F2F2F2;
@@ -233,30 +251,30 @@
         justify-content: space-between;
     }
 
-    .Dealleft{
+    .Dealleft {
         width: 50%;
         height: 100%;
         background-color: #F2F2F2;
         display: none;
-        
+
     }
 
-    .Dealleft img{
+    .Dealleft img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .Dealright{
+    .Dealright {
         width: 100%;
         height: 100%;
         background-color: #F2F2F2;
         display: flex;
         align-items: center;
         justify-content: center;
-       }
+    }
 
-       .dealtext{
+    .dealtext {
         width: 80%;
         height: 60%;
         /* background-color: aquamarine; */
@@ -267,25 +285,27 @@
         position: relative;
         /* gap: 30px; */
     }
-    .dealtext h1{
+
+    .dealtext h1 {
         font-size: 25px;
         font-weight: 500;
         font-family: "Poppins", sans-serif;
-       
+
     }
-    .dealtext::after{
+
+    .dealtext::after {
         content: '';
         position: absolute;
-        background-color:  #FE4C50;
+        background-color: #FE4C50;
         width: 17%;
         height: 7px;
         top: 25%;
         /* right: 0; */
-    
+
     }
 
-    .circlediv{
-        width: 100% ;
+    .circlediv {
+        width: 100%;
         height: 30%;
         /* background-color: blue; */
         display: flex;
@@ -293,7 +313,8 @@
         justify-content: center;
         gap: 15px;
     }
-    .circ1{
+
+    .circ1 {
         width: 48%;
         height: 68%;
         border-radius: 50%;
@@ -302,22 +323,25 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    
+
     }
-    .circ1 h1{
-        color:#FE4C50 ;
+
+    .circ1 h1 {
+        color: #FE4C50;
         font-size: 22px;
         line-height: 50px;
         font-weight: 600;
-        font-family: "Poppins", sans-serif ;
+        font-family: "Poppins", sans-serif;
     }
-    .circ1 p{
+
+    .circ1 p {
         font-family: "Poppins", sans-serif;
         font-size: 13px;
         font-weight: 500;
         line-height: 40px;
     }
-    .dealbtn{
+
+    .dealbtn {
         background-color: rgba(0, 0, 0, 0.901);
         width: 35%;
         height: 11%;
@@ -326,19 +350,20 @@
 
 
 }
+
 @media screen and (width <=320px) {
-    
-    .Dealpage{
+
+    .Dealpage {
         width: 100%;
         height: 90vh;
-        background-color:#F2F2F2;
+        background-color: #F2F2F2;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 2%;
     }
 
-    .Dealwrap{
+    .Dealwrap {
         width: 100%;
         height: 100%;
         background-color: #F2F2F2;
@@ -347,30 +372,30 @@
         justify-content: space-between;
     }
 
-    .Dealleft{
+    .Dealleft {
         width: 50%;
         height: 100%;
         background-color: #F2F2F2;
         display: none;
-        
+
     }
 
-    .Dealleft img{
+    .Dealleft img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .Dealright{
+    .Dealright {
         width: 100%;
         height: 100%;
         background-color: #F2F2F2;
         display: flex;
         align-items: center;
         justify-content: center;
-       }
+    }
 
-       .dealtext{
+    .dealtext {
         width: 80%;
         height: 60%;
         /* background-color: aquamarine; */
@@ -381,25 +406,27 @@
         position: relative;
         /* gap: 30px; */
     }
-    .dealtext h1{
+
+    .dealtext h1 {
         font-size: 20px;
         font-weight: 500;
         font-family: "Poppins", sans-serif;
-       
+
     }
-    .dealtext::after{
+
+    .dealtext::after {
         content: '';
         position: absolute;
-        background-color:  #FE4C50;
+        background-color: #FE4C50;
         width: 17%;
         height: 7px;
         top: 25%;
         /* right: 0; */
-    
+
     }
 
-    .circlediv{
-        width: 100% ;
+    .circlediv {
+        width: 100%;
         height: 30%;
         /* background-color: blue; */
         display: flex;
@@ -407,7 +434,8 @@
         justify-content: center;
         gap: 15px;
     }
-    .circ1{
+
+    .circ1 {
         width: 50%;
         height: 48%;
         border-radius: 50%;
@@ -416,22 +444,25 @@
         align-items: center;
         justify-content: center;
         /* flex-direction: column; */
-    
+
     }
-    .circ1 h1{
-        color:#FE4C50 ;
+
+    .circ1 h1 {
+        color: #FE4C50;
         font-size: 15px;
         line-height: 30px;
         font-weight: 600;
-        font-family: "Poppins", sans-serif ;
+        font-family: "Poppins", sans-serif;
     }
-    .circ1 p{
+
+    .circ1 p {
         font-family: "Poppins", sans-serif;
         font-size: 10px;
         font-weight: 500;
         line-height: 20px;
     }
-    .dealbtn{
+
+    .dealbtn {
         background-color: rgba(0, 0, 0, 0.901);
         width: 35%;
         height: 10%;

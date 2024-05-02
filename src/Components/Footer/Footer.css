@@ -50,18 +50,18 @@
 
 .footbox h4{
     font-family: "Poppins", sans-serif;
-    Font-size: 17px;
-    Font-weight: 500;
-    Line-height: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
     color: rgb(40, 40, 40);
     
 }
 
 .footbox p{
     font-family: "Poppins", sans-serif;
-    Font-size: 10px;
-    Font-weight: 500;
-    Line-height: 18px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 18px;
     color: rgb(81, 84, 95);
 }
 
@@ -97,18 +97,18 @@
     padding-top: 18px;
     padding-left: 25px;
     font-family: "Poppins", sans-serif;
-    Font-size: 24px;
-    Font-weight: 500;
-    Line-height: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
     color: rgb(40, 40, 40);
 }
 
 .fleft p{
     padding-left: 25px;
     font-family:  "Poppins", sans-serif;
-    Font-size: 12px;
-    Font-weight: 500;
-    Line-height: 23.8px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 23.8px;
     color: rgb(81, 84, 95);
 
 }
@@ -184,9 +184,9 @@ li{
     list-style: none;
     cursor: pointer;
     font-family:  "Poppins", sans-serif;
-    Font-size: 15px;
-    Font-weight: 400;
-    Line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
     color: #a09a9a;
     transition: 350ms ease-in-out;
 }
@@ -233,9 +233,9 @@ li:hover{
 
 .botwrap h4{
     font-family: "Poppins", sans-serif;
-    Font-size: 13px;
-    Font-weight: 400;
-    Line-height: 30px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
     color: rgb(81, 84, 95);
 }
 
@@ -294,18 +294,18 @@ li:hover{
 
 .footbox h4{
     font-family: "Poppins", sans-serif;
-    Font-size: 15px;
-    Font-weight: 500;
-    Line-height: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
     color: rgb(40, 40, 40);
     
 }
 
 .footbox p{
     font-family: "Poppins", sans-serif;
-    Font-size: 10px;
-    Font-weight: 500;
-    Line-height: 18px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 18px;
     color: rgb(81, 84, 95);
 }
 
@@ -345,18 +345,18 @@ li:hover{
     padding-top: 18px;
     padding-left: 25px;
     font-family: "Poppins", sans-serif;
-    Font-size: 24px;
-    Font-weight: 500;
-    Line-height: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
     color: rgb(40, 40, 40);
 }
 
 .fleft p{
     padding-left: 25px;
     font-family:  "Poppins", sans-serif;
-    Font-size: 12px;
-    Font-weight: 500;
-    Line-height: 23.8px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 23.8px;
     text-align: center;
     color: rgb(81, 84, 95);
 }
@@ -437,9 +437,9 @@ li{
     list-style: none;
     cursor: pointer;
     font-family:  "Poppins", sans-serif;
-    Font-size: 15px;
-    Font-weight: 400;
-    Line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
     color: #a09a9a;
     transition: 350ms ease-in-out;
 }
@@ -486,9 +486,9 @@ li:hover{
 
 .botwrap h4{
     font-family: "Poppins", sans-serif;
-    Font-size: 15px;
-    Font-weight: 400;
-    Line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
     color: rgb(81, 84, 95);
 }
 
@@ -548,18 +548,18 @@ li:hover{
 
 .footbox h4{
     font-family: "Poppins", sans-serif;
-    Font-size: 12px;
-    Font-weight: 500;
-    Line-height: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
     color: rgb(40, 40, 40);
     
 }
 
 .footbox p{
     font-family: "Poppins", sans-serif;
-    Font-size: 9px;
-    Font-weight: 500;
-    Line-height: 18px;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 18px;
     color: rgb(81, 84, 95);
 }
 
@@ -599,18 +599,18 @@ li:hover{
 .fleft h3{
     /* padding-top: 10px; */
     font-family: "Poppins", sans-serif;
-    Font-size: 22px;
-    Font-weight: 500;
-    Line-height: 24px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
     color: rgb(40, 40, 40);
 }
 
 .fleft p{
     /* padding-left: 25px; */
     font-family:  "Poppins", sans-serif;
-    Font-size: 9.5px;
-    Font-weight: 500;
-    Line-height: 23.8px;
+    font-size: 9.5px;
+    font-weight: 500;
+    line-height: 23.8px;
     text-align: center;
     color: rgb(81, 84, 95);
 }
@@ -691,9 +691,9 @@ li{
     list-style: none;
     cursor: pointer;
     font-family:  "Poppins", sans-serif;
-    Font-size: 12px;
-    Font-weight: 400;
-    Line-height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
     color: #a09a9a;
     transition: 350ms ease-in-out;
 }
@@ -740,9 +740,9 @@ li:hover{
 
 .botwrap h4{
     font-family: "Poppins", sans-serif;
-    Font-size: 10px;
-    Font-weight: 400;
-    Line-height: 30px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 30px;
     color: rgb(81, 84, 95);
 }
 
@@ -801,18 +801,18 @@ li:hover{
 
 .footbox h4{
     font-family: "Poppins", sans-serif;
-    Font-size: 12px;
-    Font-weight: 500;
-    Line-height: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
     color: rgb(40, 40, 40);
     
 }
 
 .footbox p{
     font-family: "Poppins", sans-serif;
-    Font-size: 9px;
-    Font-weight: 500;
-    Line-height: 18px;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 18px;
     color: rgb(81, 84, 95);
 }
 
@@ -853,18 +853,18 @@ li:hover{
 .fleft h3{
     /* padding-top: 10px; */
     font-family: "Poppins", sans-serif;
-    Font-size: 23px;
-    Font-weight: 500;
-    Line-height: 15px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 15px;
     color: rgb(40, 40, 40);
 }
 
 .fleft p{
     /* padding-left: 25px; */
     font-family:  "Poppins", sans-serif;
-    Font-size: 8px;
-    Font-weight: 500;
-    Line-height: 25.8px;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 25.8px;
     text-align: center;
     color: rgb(81, 84, 95);
 }
@@ -948,9 +948,9 @@ li{
     list-style: none;
     cursor: pointer;
     font-family:  "Poppins", sans-serif;
-    Font-size: 8px;
-    Font-weight: 400;
-    Line-height: 30px;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 30px;
     color: #a09a9a;
     transition: 350ms ease-in-out;
 }
@@ -997,9 +997,9 @@ li:hover{
 
 .botwrap h4{
     font-family: "Poppins", sans-serif;
-    Font-size: 9px;
-    Font-weight: 400;
-    Line-height: 20px;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 20px;
     color: rgb(81, 84, 95);
 }
 
