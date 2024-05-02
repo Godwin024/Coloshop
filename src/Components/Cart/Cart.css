@@ -1,9 +1,10 @@
-.CartBody{
+.CartBody {
     width: 100%;
     height: max-content;
     background-color: #ffffff;
 }
-.CartBody h1{
+
+.CartBody h1 {
     font-weight: 700;
     font-size: 25px;
     text-align: center;
@@ -11,50 +12,61 @@
     margin-top: 2%;
     font-family: "Popppins", sans-serif;
 }
-.titles{
+
+.titles {
     margin-top: 50px;
     /* background-color: red; */
 }
-.titles h3{
- font-size: 15px;
- font-weight: 600;
- text-transform: uppercase;
- font-family: "raleway";
+
+.titles h3 {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "raleway";
 }
-.cart-item, .titles{
-  display: grid;
-  align-items: center;
-  grid-template-columns: 3fr 1fr 1fr 1fr;
-  column-gap: 0.5rem;
+
+.cart-item,
+.titles {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    column-gap: 0.5rem;
 }
-.cart-item{
+
+.cart-item {
     border-top: 1px solid grey;
     padding: 5rem 0;
 }
-.producttitle{
+
+.producttitle {
     padding-left: 30px;
 }
-.total{
+
+.total {
     padding-right: 30px;
     justify-self: right;
 }
-.cart-item .cart-product{
+
+.cart-item .cart-product {
     display: flex;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     /* color: red; */
 }
-.cart-item .cart-product img{
+
+.cart-item .cart-product img {
     width: 200px;
     max-width: 100%;
     margin-right: 50px;
-    
+
 }
-.cart-item .cart-product h3{
+
+.cart-item .cart-product h3 {
     font-weight: 400;
-    
+
 }
-.rebtn{
+
+.rebtn {
     width: 20%;
     height: 10%;
     font-size: 15px;
@@ -62,7 +74,7 @@
 }
 
 
-.cart-product-quantity{
+.cart-product-quantity {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,27 +85,31 @@
     border-radius: 5px;
     gap: 20px;
 }
-.signbtn{
-  width: 30px;
-  height: 30px;
+
+.signbtn {
+    width: 30px;
+    height: 30px;
 }
-.cart-product-total-price{
+
+.cart-product-total-price {
     justify-self: right;
     padding-right: 30px;
     font-weight: 700;
     font-size: 20px;
     font-family: "raleway";
 }
-.cart-summary{
+
+.cart-summary {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid red ;
+    border-top: 1px solid red;
     align-items: center;
     padding-top: 15px;
     height: 250px;
     /* background-color: red; */
 }
-.clear-cart{
+
+.clear-cart {
     width: 150px;
     max-width: 100%;
     font-size: 15px;
@@ -104,12 +120,13 @@
     margin-left: 30px;
     /* background-color: yellow; */
 }
-.cart-checkout{
+
+.cart-checkout {
     width: 500px;
     height: 250px;
     max-width: 100%;
     /* background-color: green; */
-   
+
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
@@ -118,7 +135,8 @@
 
 
 }
- .subtotal{
+
+.subtotal {
     /* display: flex; */
     height: 200px;
     width: 500px;
@@ -127,21 +145,24 @@
     justify-content: space-between;
     /* background-color: yellow; */
     font-size: 17px;
-     /* gap: 50px; */
+    /* gap: 50px; */
     font-family: "Poppins", sans-serif;
 
 }
-.amount{
+
+.amount {
     font-weight: 700;
     color: red;
 
 }
-.amount p{
+
+.amount p {
     font-size: 13px;
     font-weight: 400;
     margin: 10px 10px;
 }
-.chebtn{
+
+.chebtn {
     width: 400px;
     max-width: 100%;
     font-size: 15px;
@@ -150,7 +171,8 @@
     font-weight: 400;
     letter-spacing: 1.15px;
 }
-.cart-product-price{
+
+.cart-product-price {
     font-family: "raleway";
     margin-left: 20px;
     font-size: 15px;
