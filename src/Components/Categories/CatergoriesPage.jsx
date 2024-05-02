@@ -8,7 +8,7 @@ import Electronics from "../Landingpage/NewArrival/Electronics";
 import Jewelry from "../Landingpage/NewArrival/Jewelry";
 import Mens from "../Landingpage/NewArrival/mens";
 import Women from "../Landingpage/NewArrival/Women";
-import Footer from "../Footer/Footer";
+
 
 const CategoriesPage = () => {
 
